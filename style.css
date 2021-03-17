@@ -272,6 +272,7 @@ nav{
 .left-tl{
     align-items: center;
     text-align: left;
+    padding-bottom: 10%;
 }
 .left-tl p{
     padding-left: 10%;
@@ -309,7 +310,7 @@ nav{
     display: flex;
     width: 100%;
     align-items: center;
-    padding-top: 5%;
+    padding-top: 10%;
     justify-content: center;
 }
 .military i{
@@ -694,9 +695,10 @@ nav{
     }
     .first-acc p, .third-acc p{
         padding-top: 0;
-        padding: 5% 10%;
+        padding: 5% 0%;
         font-weight: bold;
         text-transform: uppercase;
+        font-size: 1rem;
     }
 }
 @media screen and (max-width: 500px){
